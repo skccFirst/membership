@@ -1,4 +1,4 @@
-package ys;
+package youtube;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 

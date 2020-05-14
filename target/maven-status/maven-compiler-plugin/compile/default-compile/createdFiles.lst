@@ -1,0 +1,12 @@
+youtube\DeletedMembership.class
+youtube\config\kafka\KafkaProcessor.class
+youtube\Application.class
+youtube\StartedVideo.class
+youtube\PolicyHandler.class
+youtube\MembershipService.class
+youtube\CheckedMembership.class
+youtube\MembershipServiceRepository.class
+youtube\AbstractEvent.class
+youtube\MembershipServiceController.class
+youtube\AbstractEvent$1.class
+youtube\RegisterdMembership.class

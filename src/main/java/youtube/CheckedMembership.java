@@ -1,12 +1,12 @@
-package ys;
+package youtube;
 
-public class DeletedMembership extends AbstractEvent {
+public class CheckedMembership extends AbstractEvent {
 
     private Long id;
     private Long clientId;
     private Long membershipId;
 
-    public DeletedMembership(){
+    public CheckedMembership(){
         super();
     }
 

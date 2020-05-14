@@ -1,5 +1,8 @@
 
-package ys;
+package youtube;
+
+
+import java.util.Date;
 
 public class StartedVideo extends AbstractEvent {
 
@@ -8,6 +11,7 @@ public class StartedVideo extends AbstractEvent {
     private Date uploadTime;
     private String clientID;
     private String channelId;
+    private Long membershipId;
 
     public Long getId() {
         return id;
@@ -43,5 +47,13 @@ public class StartedVideo extends AbstractEvent {
 
     public void setChannelId(String channelId) {
         this.channelId = channelId;
+    }
+
+    public Long getMembershipId() {
+        return membershipId;
+    }
+
+    public void setMembershipId(Long membershipId) {
+        this.membershipId = membershipId;
     }
 }

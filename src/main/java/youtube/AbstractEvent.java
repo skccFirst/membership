@@ -1,6 +1,6 @@
-package ys;
+package youtube;
 
-import ys.config.kafka.KafkaProcessor;
+import youtube.config.kafka.KafkaProcessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.messaging.MessageChannel;
